@@ -103,7 +103,8 @@ watch(
       width: 100%;
       padding-left: 22px;
       transform: translateY(-8px);
-      font-family: "Pacifico-Regular";
+      /* ✅ 修改：将 "Pacifico-Regular" 改为 'Pacifico', cursive */
+      font-family: 'Pacifico', cursive;
 
       .bg {
         font-size: 5rem;
@@ -152,7 +153,8 @@ watch(
 
         p {
           &:nth-of-type(1) {
-            font-family: "Pacifico-Regular";
+            /* ✅ 修改：将 "Pacifico-Regular" 改为 'Pacifico', cursive */
+            font-family: 'Pacifico', cursive;
           }
         }
       }
@@ -166,28 +168,5 @@ watch(
       pointer-events: none;
     }
   }
-  // @media (max-width: 390px) {
-  //   .logo {
-  //     flex-direction: column;
-  //     .logo-img {
-  //       display: none;
-  //     }
-  //     .name {
-  //       margin-left: 0;
-  //       height: auto;
-  //       transform: none;
-  //       text-align: center;
-  //       .bg {
-  //         font-size: 3.5rem;
-  //       }
-  //       .sm {
-  //         font-size: 1.4rem;
-  //       }
-  //     }
-  //   }
-  //   .description {
-  //     margin-top: 2.5rem;
-  //   }
-  // }
 }
 </style>
