@@ -10,19 +10,18 @@
     "link": "https://zhl2010.ccwu.cc/"
   },
   {
-    "icon": "https://www.luogu.com.cn/favicon.ico",
+    "icon": "LaptopCode",
     "name": "洛谷",
     "link": "https://www.luogu.com.cn"
   },
   {
-    "icon": "http://bbcoj.cn/favicon.ico",
+    "icon": "LaptopCode",
     "name": "BBCOJ",
     "link": "http://bbcoj.cn/home"
   },
   {
-    "icon": "https://www.deepseek.com/favicon.ico",
+    "icon": "Cloud",
     "name": "DeepSeek",
     "link": "https://chat.deepseek.com/"
   }
-  
 ]
